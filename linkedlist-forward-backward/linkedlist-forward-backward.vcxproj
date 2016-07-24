@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\LinkedList.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\LinkedList.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{28781CCC-87AE-4310-B5E4-75FB457222F7}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -145,13 +152,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="LinkedList.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="LinkedList.cpp" />
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
